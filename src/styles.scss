@@ -1,9 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 /* CSS RESET June 2024 */
 
 * { margin: 0; padding: 0; font-family: Inter, sans-serif; }
 *, *::before, *::after { box-sizing: border-box; }
 
-body { min-height: 100dvh; }
+body { min-height: 100dvh; background-color: hsl(36, 100%, 99%); }
 input, button, textarea, select { font: inherit; }
 
 p { text-wrap: pretty; }
@@ -20,3 +24,4 @@ img, video, svg { height: auto; max-width: 100%; }
     transition: none;
   }
 }
+
